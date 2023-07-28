@@ -1,13 +1,14 @@
 import React from 'react'
+import "./Contact.css"
 
-const Services = () => {
+const Contact = () => {
   return (
     <section>
-
+   
       <div className=""></div>
-
+   
     </section>
   )
 }
 
-export default Services
+export default Contact
