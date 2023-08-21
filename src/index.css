@@ -1,6 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  font: inherit;
-  overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Niramit'; */
+    font-weight: 300;
+    scroll-behavior: smooth;
+  }
