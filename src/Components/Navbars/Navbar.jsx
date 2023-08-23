@@ -6,7 +6,7 @@ import { BiEnvelope } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <main className="flex items-center justify-between px-[150px] mt-[15px]">
+    <main className="flex items-center justify-between px-[150px] mt-[15px] sticky top-0">
       <div className="web-logo">
         <img className="logo" src={AtlanticLogo} alt="web Logo" />
       </div>

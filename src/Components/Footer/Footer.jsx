@@ -4,16 +4,16 @@ import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-red-900 text-white w-full absolute bottom-0 ">
+    <footer className="bg-red-900 text-white w-full">
       <div className="flex flex-col">
-        <div className="footer-web-logo">
+        <div>
           <img
             src={AtlanticLogo}
             alt="footer web logo"
             className="mt-5 ml-10"
           />
         </div>
-        <div className="px-8 mx-auto py-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 ">
+        <div className="px-8 mx-auto py-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8  border-b-2 border-b-slate-500">
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
             {/* Content for the first section */}
             <h3>CONTACT(S)</h3>
